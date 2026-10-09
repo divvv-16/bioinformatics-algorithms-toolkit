@@ -1,5 +1,5 @@
 # Import our reusable function from the src module 
-from src.dna_count import count_nucleotides 
+from src.dna_operations import count_nucleotides 
 
 def run_tests_and_sample() -> None:
     # 1. Edge-case test: Empty DNA sequence should return all zeroes
