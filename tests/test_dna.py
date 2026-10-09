@@ -8,7 +8,7 @@ def run_tests_and_sample() -> None:
     # 2. Short verification test
     assert count_nucleotides("ACGT") == (1, 1, 1, 1)
 
-    # 3. Rosalind Sample Datasert
+    # 3. Rosalind Sample Dataset
     sample dna = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
     expected_output = (20, 12, 17, 21)  # Expected counts of A, C, G, T
 
